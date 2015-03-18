@@ -1,0 +1,8 @@
+
+; ImgViewer.def 
+
+LIBRARY      "ImgViewer"
+
+EXPORTS
+    ; 
+	

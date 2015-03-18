@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<component_profile>
+	<id>132158ad-c6cd-4fb0-9b80-c2766341d87e</id>
+	<name>FaceDetectImgComp</name>
+	<version>1.0</version>
+	<layout>73,48,250,200</layout>
+	<collapsed>0</collapsed>
+	<copyright>
+		<company>
+			<name />
+			<phone />
+			<address />
+			<homepage />
+		</company>
+		<license_policy>LGPL</license_policy>
+	</copyright>
+	<execution_environment>
+		<library_type>dll</library_type>
+		<library_name>FaceDetectImgComp.dll</library_name>
+		<impl_language>MSVC C++</impl_language>
+		<compiler>MSVC</compiler>
+		<app_domain />
+		<app_robot />
+	</execution_environment>
+	<execution_semantics>
+		<type>periodic</type>
+		<period>100</period>
+		<priority>5</priority>
+		<instance_creation>singleton</instance_creation>
+	</execution_semantics>
+	<properties>
+		<property name="ImgFileName" type="std::string">kara.bmp</property>
+	</properties>
+	<data_type_list />
+	<defined_data_types>
+		<defined_data_type>tagRECT.xml</defined_data_type>
+	</defined_data_types>
+	<defined_service_types>
+		<defined_service_type>FaceDetectImgService.xml</defined_service_type>
+	</defined_service_types>
+	<exports />
+	<ports>
+		<service_port>
+			<name>FaceDetectImgService</name>
+			<description />
+			<type>FaceDetectImgService</type>
+			<usage>provided</usage>
+			<reference>FaceDetectImgService.xml</reference>
+			<layout>307,97,172,32</layout>
+		</service_port>
+		<data_port>
+			<name>DetectedFaces</name>
+			<description />
+			<data_type>tagRECT</data_type>
+			<usage>output</usage>
+			<reference>tagRECT.xml</reference>
+			<layout>307,158,127,32</layout>
+		</data_port>
+		<event_port>
+			<name>ImgFileName</name>
+			<description />
+			<data_type>std::string</data_type>
+			<usage>input</usage>
+			<layout>307,216,111,32</layout>
+		</event_port>
+	</ports>
+</component_profile>
+

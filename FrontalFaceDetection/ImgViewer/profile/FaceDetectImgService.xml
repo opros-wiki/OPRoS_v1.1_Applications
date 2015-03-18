@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<service_port_type_profile>
+	<service_port_type>
+		<type_name>FaceDetectImgService</type_name>
+		<method name="GetImgFD" return_type="std::vector<RECT>" call_type="blocking">
+			<param index="1">
+				<name>imgFileName</name>
+				<type>std::string</type>
+			</param>
+		</method>
+	</service_port_type>
+</service_port_type_profile>
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<OPRoSProject>
+	<name>CameraComp</name>
+	<src>C:/OPRoS/OprosTools/workspace/CameraComp/CameraComp</src>
+	<bin>C:/OPRoS/OprosTools/workspace/CameraComp/CameraComp</bin>
+	<language>MSVC C++</language>
+	<location>C:/OPRoS/OprosTools/workspace</location>
+	<components>
+		<component>CameraComp</component>
+	</components>
+</OPRoSProject>
+

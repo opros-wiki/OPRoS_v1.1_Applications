@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<component_profile>
+	<id>43bf37f6-b2af-4486-80af-e42bc2d19b1d</id>
+	<name>FaceDetectTest</name>
+	<version>1.0</version>
+	<layout>100,150,250,200</layout>
+	<collapsed>0</collapsed>
+	<copyright>
+		<company>
+			<name />
+			<phone />
+			<address />
+			<homepage />
+		</company>
+		<license_policy>LGPL</license_policy>
+	</copyright>
+	<execution_environment>
+		<library_type>dll</library_type>
+		<library_name>FaceDetectTest.dll</library_name>
+		<impl_language>MSVC C++</impl_language>
+		<compiler>MSVC</compiler>
+		<app_domain />
+		<app_robot />
+	</execution_environment>
+	<execution_semantics>
+		<type>periodic</type>
+		<period>100</period>
+		<priority>5</priority>
+		<instance_creation>singleton</instance_creation>
+	</execution_semantics>
+	<properties>
+		<property name="imgFileName" type="std::string">opros_contest.bmp</property>
+	</properties>
+	<data_type_list />
+	<defined_data_types />
+	<defined_service_types />
+	<exports />
+	<ports>
+		<event_port>
+			<name>imgFileName</name>
+			<description>image file name</description>
+			<data_type>std::string</data_type>
+			<usage>output</usage>
+			<layout>334,200,111,32</layout>
+		</event_port>
+	</ports>
+</component_profile>
+

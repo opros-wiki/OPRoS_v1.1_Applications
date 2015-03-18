@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<OPRoSProject>
+	<name>FaceDetectTest</name>
+	<src>C:/OPRoS/OprosTools/workspace_face_detect/FaceDetectTest/FaceDetectTest</src>
+	<bin>C:/OPRoS/OprosTools/workspace_face_detect/FaceDetectTest/FaceDetectTest</bin>
+	<language>MSVC C++</language>
+	<location>C:/OPRoS/OprosTools/workspace_face_detect</location>
+	<components>
+		<component>FaceDetectTest</component>
+	</components>
+</OPRoSProject>
+

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<component_profile>
+	<id>ccc6baa6-6ab7-440d-8e2e-d5da333711cf</id>
+	<name>Viewer</name>
+	<version>1.0</version>
+	<layout>278,112,250,200</layout>
+	<collapsed>0</collapsed>
+	<copyright>
+		<company>
+			<name />
+			<phone />
+			<address />
+			<homepage />
+		</company>
+		<license_policy>LGPL</license_policy>
+	</copyright>
+	<execution_environment>
+		<library_type>dll</library_type>
+		<library_name>Viewer.dll</library_name>
+		<impl_language>MSVC C++</impl_language>
+		<compiler>MSVC</compiler>
+		<app_domain />
+		<app_robot />
+	</execution_environment>
+	<execution_semantics>
+		<type>periodic</type>
+		<period>100</period>
+		<priority>5</priority>
+		<instance_creation>singleton</instance_creation>
+	</execution_semantics>
+	<properties />
+	<data_type_list />
+	<defined_data_types>
+		<defined_data_type>tagRECT.xml</defined_data_type>
+	</defined_data_types>
+	<defined_service_types />
+	<exports />
+	<ports>
+		<data_port>
+			<name>detectedFaces</name>
+			<description />
+			<data_type>tagRECT</data_type>
+			<usage>input</usage>
+			<reference>tagRECT.xml</reference>
+			<queueing_policy>FIFO</queueing_policy>
+			<queue_size>10</queue_size>
+			<layout>168,224,126,32</layout>
+		</data_port>
+		<event_port>
+			<name>imgFileName</name>
+			<description>imge file name</description>
+			<data_type>std::string</data_type>
+			<usage>input</usage>
+			<layout>183,144,111,32</layout>
+		</event_port>
+	</ports>
+</component_profile>
+

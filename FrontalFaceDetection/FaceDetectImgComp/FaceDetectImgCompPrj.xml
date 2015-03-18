@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<OPRoSProject>
+	<name>FaceDetectImgComp</name>
+	<src>C:/OPRoS/OprosTools/workspace_face_detect/FaceDetectImgComp/FaceDetectImgComp</src>
+	<bin>C:/OPRoS/OprosTools/workspace_face_detect/FaceDetectImgComp/FaceDetectImgComp</bin>
+	<language>MSVC C++</language>
+	<location>C:/OPRoS/OprosTools/workspace_face_detect</location>
+	<components>
+		<component>FaceDetectImgComp</component>
+	</components>
+</OPRoSProject>
+

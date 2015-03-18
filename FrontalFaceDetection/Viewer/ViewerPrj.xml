@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<OPRoSProject>
+	<name>Viewer</name>
+	<src>C:/OPRoS/OprosTools/workspace_face_detect/Viewer/Viewer</src>
+	<bin>C:/OPRoS/OprosTools/workspace_face_detect/Viewer/Viewer</bin>
+	<language>MSVC C++</language>
+	<location>C:/OPRoS/OprosTools/workspace_face_detect</location>
+	<components>
+		<component>Viewer</component>
+	</components>
+</OPRoSProject>
+

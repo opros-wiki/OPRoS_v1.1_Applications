@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<data_type>
+	<struct name="tagRECT">
+		<item type="Long">left</item>
+		<item type="Long">top</item>
+		<item type="Long">right</item>
+		<item type="Long">bottom</item>
+	</struct>
+</data_type>
+

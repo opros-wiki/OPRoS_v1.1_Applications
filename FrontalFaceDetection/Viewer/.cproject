@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="kr.co.ed.opros.ce.managedbuilder.config.MSVC.debug.537295208">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="kr.co.ed.opros.ce.managedbuilder.config.MSVC.debug.537295208" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="Viewer" buildArtefactType="kr.co.ed.opros.ce.managedbuild.buildArtefactType.base" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=kr.co.ed.opros.ce.managedbuild.buildArtefactType.base" cleanCommand="rm -rf" description="" id="kr.co.ed.opros.ce.managedbuilder.config.MSVC.debug.537295208" name="Debug" parent="kr.co.ed.opros.ce.managedbuilder.config.MSVC.debug">
+					<folderInfo id="kr.co.ed.opros.ce.managedbuilder.config.MSVC.debug.537295208." name="/" resourcePath="">
+						<toolChain id="kr.co.ed.opros.ce.managedbuilder.toolchain.MSVC.debug.13321044" name="OPRoS MSVC Toolchain" superClass="kr.co.ed.opros.ce.managedbuilder.toolchain.MSVC.debug">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.PE" id="kr.co.ed.opros.ce.managedbuild.targetplatform.MSVC.base.1978776840" name="OPRoS Target Platform" osList="win32" superClass="kr.co.ed.opros.ce.managedbuild.targetplatform.MSVC.base"/>
+							<builder buildPath="${workspace_loc:/Viewer/}" enableAutoBuild="false" id="kr.co.ed.opros.ce.managedbuild.builder.MSVC.base.634401873" managedBuildOn="false" name="Gnu Make Builder.Debug" superClass="kr.co.ed.opros.ce.managedbuild.builder.MSVC.base"/>
+							<tool id="kr.co.ed.opros.ce.managedbuild.tool.gnu.archiver.mingw.MSVC.base.857636927" name="GCC Archiver" superClass="kr.co.ed.opros.ce.managedbuild.tool.gnu.archiver.mingw.MSVC.base"/>
+							<tool id="kr.co.ed.opros.ce.managedbuild.tool.cpp.assembler.MSVC.928080361" name="OPRoS C++ Assembler" superClass="kr.co.ed.opros.ce.managedbuild.tool.cpp.assembler.MSVC">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1550464204" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+							<tool id="kr.co.ed.opros.ce.managedbuild.tool.cpp.compiler.MSVC.1613435959" name="OPRoS C++ Compiler" superClass="kr.co.ed.opros.ce.managedbuild.tool.cpp.compiler.MSVC">
+								<option id="gnu.cpp.compiler.option.optimization.level.1949730011" superClass="gnu.cpp.compiler.option.optimization.level" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.956032054" superClass="gnu.cpp.compiler.option.debugging.level" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.964455951" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="kr.co.ed.opros.ce.managedbuild.tool.c.compiler.MSVC.1274228295" name="OPRoS C Compiler" superClass="kr.co.ed.opros.ce.managedbuild.tool.c.compiler.MSVC">
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.option.optimization.level.378159702" superClass="gnu.c.compiler.option.optimization.level" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.347950262" superClass="gnu.c.compiler.option.debugging.level" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1418943701" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="kr.co.ed.opros.ce.managedbuild.tool.c.linker.MSVC.1250705731" name="OPRoS C Linker" superClass="kr.co.ed.opros.ce.managedbuild.tool.c.linker.MSVC"/>
+							<tool id="kr.co.ed.opros.ce.managedbuild.tool.cpp.linker.MSVC.211100022" name="OPRoS C++ Linker" superClass="kr.co.ed.opros.ce.managedbuild.tool.cpp.linker.MSVC">
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.327393013" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="kr.co.ed.opros.ce.managedbuilder.config.MSVC.release.465796867">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="kr.co.ed.opros.ce.managedbuilder.config.MSVC.release.465796867" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="Viewer" buildArtefactType="kr.co.ed.opros.ce.managedbuild.buildArtefactType.base" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release,org.eclipse.cdt.build.core.buildArtefactType=kr.co.ed.opros.ce.managedbuild.buildArtefactType.base" cleanCommand="rm -rf" description="" id="kr.co.ed.opros.ce.managedbuilder.config.MSVC.release.465796867" name="Release" parent="kr.co.ed.opros.ce.managedbuilder.config.MSVC.release">
+					<folderInfo id="kr.co.ed.opros.ce.managedbuilder.config.MSVC.release.465796867." name="/" resourcePath="">
+						<toolChain id="kr.co.ed.opros.ce.managedbuilder.toolchain.MSVC.release.243827231" name="OPRoS MSVC Toolchain" superClass="kr.co.ed.opros.ce.managedbuilder.toolchain.MSVC.release">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.PE" id="kr.co.ed.opros.ce.managedbuild.targetplatform.MSVC.base.1711070396" name="OPRoS Target Platform" osList="win32" superClass="kr.co.ed.opros.ce.managedbuild.targetplatform.MSVC.base"/>
+							<builder buildPath="${workspace_loc:/Viewer/}" enableAutoBuild="false" id="kr.co.ed.opros.ce.managedbuild.builder.MSVC.base.6340368" managedBuildOn="false" name="Gnu Make Builder.Release" superClass="kr.co.ed.opros.ce.managedbuild.builder.MSVC.base"/>
+							<tool id="kr.co.ed.opros.ce.managedbuild.tool.gnu.archiver.mingw.MSVC.base.1593309180" name="GCC Archiver" superClass="kr.co.ed.opros.ce.managedbuild.tool.gnu.archiver.mingw.MSVC.base"/>
+							<tool id="kr.co.ed.opros.ce.managedbuild.tool.cpp.assembler.MSVC.786832598" name="OPRoS C++ Assembler" superClass="kr.co.ed.opros.ce.managedbuild.tool.cpp.assembler.MSVC">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.42386515" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+							<tool id="kr.co.ed.opros.ce.managedbuild.tool.cpp.compiler.MSVC.724536629" name="OPRoS C++ Compiler" superClass="kr.co.ed.opros.ce.managedbuild.tool.cpp.compiler.MSVC">
+								<option id="gnu.cpp.compiler.option.optimization.level.1246654266" superClass="gnu.cpp.compiler.option.optimization.level" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.1044925505" superClass="gnu.cpp.compiler.option.debugging.level" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.440745246" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="kr.co.ed.opros.ce.managedbuild.tool.c.compiler.MSVC.198083404" name="OPRoS C Compiler" superClass="kr.co.ed.opros.ce.managedbuild.tool.c.compiler.MSVC">
+								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.option.optimization.level.1004816733" superClass="gnu.c.compiler.option.optimization.level" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.2065836890" superClass="gnu.c.compiler.option.debugging.level" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.968674709" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="kr.co.ed.opros.ce.managedbuild.tool.c.linker.MSVC.1772859460" name="OPRoS C Linker" superClass="kr.co.ed.opros.ce.managedbuild.tool.c.linker.MSVC"/>
+							<tool id="kr.co.ed.opros.ce.managedbuild.tool.cpp.linker.MSVC.1579888882" name="OPRoS C++ Linker" superClass="kr.co.ed.opros.ce.managedbuild.tool.cpp.linker.MSVC">
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.900840730" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="Viewer.kr.co.ed.opros.ce.managedbuilder.project.MSVC.base.541673633" name="OPRoS MSVC Project Type" projectType="kr.co.ed.opros.ce.managedbuilder.project.MSVC.base"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="kr.co.ed.opros.ce.managedbuilder.config.MSVC.debug.537295208;kr.co.ed.opros.ce.managedbuilder.config.MSVC.debug.537295208.;kr.co.ed.opros.ce.managedbuild.tool.cpp.compiler.MSVC.1613435959;cdt.managedbuild.tool.gnu.cpp.compiler.input.964455951">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="kr.co.ed.opros.ce.managedbuilder.config.MSVC.release.465796867;kr.co.ed.opros.ce.managedbuilder.config.MSVC.release.465796867.;kr.co.ed.opros.ce.managedbuild.tool.c.compiler.MSVC.198083404;cdt.managedbuild.tool.gnu.c.compiler.input.968674709">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="kr.co.ed.opros.ce.managedbuilder.config.MSVC.debug.537295208;kr.co.ed.opros.ce.managedbuilder.config.MSVC.debug.537295208.;kr.co.ed.opros.ce.managedbuild.tool.c.compiler.MSVC.1274228295;cdt.managedbuild.tool.gnu.c.compiler.input.1418943701">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="kr.co.ed.opros.ce.managedbuilder.config.MSVC.release.465796867;kr.co.ed.opros.ce.managedbuilder.config.MSVC.release.465796867.;kr.co.ed.opros.ce.managedbuild.tool.cpp.compiler.MSVC.724536629;cdt.managedbuild.tool.gnu.cpp.compiler.input.440745246">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP"/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+</cproject>

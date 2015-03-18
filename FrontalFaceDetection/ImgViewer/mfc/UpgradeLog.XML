@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ImgViewer">
+</Property><Property Name="솔루션 파일" Value="D:\OPRoS_SW\Materials\opros_abalone_101b\OprosDevelopment_FrontalFaceDetection\IDE\ComponentSource\ImgViewer\mfc\ImgViewer.sln">
+</Property><Property Name="Date" Value="2013년 12월 18일 수요일">
+</Property><Property Name="Time" Value="오후 15:29:24">
+</Property></Properties><Event ErrorLevel="0" Project="ImgViewer" Source="ImgViewer.vcproj" Description="Converting project file 'D:\OPRoS_SW\Materials\opros_abalone_101b\OprosDevelopment_FrontalFaceDetection\IDE\ComponentSource\ImgViewer\mfc\ImgViewer.vcproj'.">
+</Event><Event ErrorLevel="1" Project="ImgViewer" Source="ImgViewer.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="ImgViewer" Source="ImgViewer.vcproj" Description="Done converting to new project file 'D:\OPRoS_SW\Materials\opros_abalone_101b\OprosDevelopment_FrontalFaceDetection\IDE\ComponentSource\ImgViewer\mfc\ImgViewer.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="ImgViewer" Source="ImgViewer.vcproj" Description="Converted">
+</Event></UpgradeLog>
